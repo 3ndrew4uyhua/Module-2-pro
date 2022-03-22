@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  background-color: black;
+  height: 35px;
+  padding: 20px;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+.card {
+  border: solid back 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.card_text {
+  text-align: center;
+  padding: 15px;
+  }
+
+.card img{
+  border-radius: 50%;
+  width: 220px;
+  height: 200px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card.DAE img {
+  border: solid .5px black;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 30px 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    
+}
+/* Footer height */
+footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  
+}
+/* Footer height */
+
+.card { transition: all .2s ease-in-out; }
+.card:hover { transform: scale(1.1); }
+
+/*Tablet*/
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+main { 
+  flex-direction:column;
+  }
+  
+/*Mobile*/
+@media (max-width: 420px)
+  
+@media (min-width: 500)
+}
+
